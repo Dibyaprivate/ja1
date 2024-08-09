@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./function.js">
+       var String = prompt("enter string");
+       var isPallindrome = true;
+       var len=String.length;
+       for (var i = 0; i < len/2 ; i++) {
+        //console.log(String[i]);
+        //console.log(String[len -1 - i]);
+         if(String[i] !== String[len - 1 - i]){
+            isPallindrome=false;
+            break;
+            //  console.log("ନାହିଁ, ଏହା ପାଲିଣ୍ଡ୍ରୋମ୍ ନୁହେଁ।" );
+        }
+        
+       }
+      //console.log("ହଁ, ଏହା ଏକ ପାଲିଣ୍ଡ୍ରୋମ୍।");
+if (isPallindrome) {
+    console.log("ହଁ, ଏହା ଏକ ପାଲିଣ୍ଡ୍ରୋମ୍।");
+  }  
+  else {
+    console.log("ନାହିଁ, ଏହା ପାଲିଣ୍ଡ୍ରୋମ୍ ନୁହେଁ।");
+     }
+ let userInput = prompt("Enter a number:");
+let number = parseFloat(userInput); // or parseInt(userInput) for integers
+console.log("You entered:", number);
+
+       
+        </script>  
+</head>
+<body>
+    <p id="demo">volvo</p>
+
+
+</body>
+</html>
